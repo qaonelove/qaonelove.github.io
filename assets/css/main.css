@@ -4925,10 +4925,7 @@ a img {
 }
 
 .header-icons .icon:active,
-.header-icons .icon:hover {
-    color: #1488CC;
-    background: #fff
-}
+
 
 @media only screen and (min-width:550px) {
     .header-icons .icon {
