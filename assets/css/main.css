@@ -4913,8 +4913,20 @@ a img {
     text-align: center
 }
 
-.header-icons .icon:active,
+.header-icons .icon {
+    height: 20px;
+    padding: 10px;
+    transition: all .7s;
+    width: 20px;
+    font-size: 20px;
+    margin: 5px
+}
 
+.header-icons .icon:active,
+.header-icons .icon:hover {
+    color: #1488CC;
+    background: #fff
+}
 
 @media only screen and (min-width:550px) {
     .header-icons .icon {
